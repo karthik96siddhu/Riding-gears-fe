@@ -1,0 +1,31 @@
+ngb-carousel .wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 55%; /* Keep ratio for 900x500 images */
+  }
+  ngb-carousel .wrapper>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+.card-btn {
+    /* width: 120px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.card-btn:hover {
+    background-color: greenyellow;
+}

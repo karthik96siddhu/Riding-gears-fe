@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { AuthInterceptor } from './core/interceptor/auth.interceptor';
 import { CoreModule } from './core/core.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     ReactiveFormsModule,
     HttpClientModule,
     CoreModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    NgbModule
 
   ],
   providers: [
